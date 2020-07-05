@@ -5,7 +5,7 @@ import pandas as pd
 import os
 ...
 ...
-dataname='C:/Users/Mohit K/Desktop/hdfc.csv'
+dataname='.../hdfc.csv'
 datanamee=pd.read_csv(dataname)
 datanamee=pd.DataFrame(datanamee)
 #datanamee=datanamee.drop(['SYMBOL','INTERVAL'],axis=1)
